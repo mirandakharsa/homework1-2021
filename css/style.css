@@ -9,8 +9,9 @@ body{
 
 /*Make the h1 heading bigger with a bold font*/
 h1{
-	font-size: 2em; 
+	font-size: 2pt; 
 	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace
 }
 
 /*Style the images*/
@@ -25,13 +26,14 @@ img{
 
 /*Make the h2 heading match h1*/
 h2{
-	font-size: 2em; 
+	font-size: 2pt; 
 	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace
 }
 
 /*Improve the spacing for paragraphs AND headings*/
 p, h1, h2 {
-    padding: 10px;
+    padding: 20px;
 }
 
 /*Add borders around the main components and some
@@ -45,10 +47,10 @@ header, nav, main, h1, footer{
 /*Change the styling for all of the list 
 items in the nav section*/
 nav li{
-	background-color: #ECFF4D;
-	padding:10px;
+	background-color: #4df3ff;
+	padding:20px;
 	width:25%;
-	border:1px solid black;
+	border:2px solid rgb(185, 219, 62);
 	display: inline-block;
 	width: 20%;
 }
